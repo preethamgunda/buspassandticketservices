@@ -6,7 +6,7 @@ import userRouter from "./routes/user.js";
 import tourRouter from "./routes/tour.js";
 import ticketRouter from "./routes/Ticket.js";
 import TicketModel from "./models/ticket.js";
-//mongodb+srv://preegunda_21:<password>@cluster0.zmvx6ou.mongodb.net/?retryWrites=true&w=majority
+
 const app = express();
 
 app.use(morgan("dev"));
@@ -26,7 +26,7 @@ app.post("/getTicketDetails", async (req, res) => {
 });
 
 const MONGODB_URL =
-  "mongodb+srv://preegunda_21:Preethupg5@cluster0.zmvx6ou.mongodb.net/tour_db?retryWrites=true&w=majority";
+  "";
 const port = 5000;
 
 mongoose
