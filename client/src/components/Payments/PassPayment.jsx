@@ -30,7 +30,7 @@ const displayRazorpay = async (amount) => {
   }
 
   const options = {
-    key: "rzp_test_By0ovCBn7Mzp2R",
+    key: "",
     currency: "INR",
     amount: amount * 100,
     name: "Bus Pass",
@@ -42,7 +42,7 @@ const displayRazorpay = async (amount) => {
       window.location.href = "http://localhost:3000";
     },
     prefill: {
-      name: "Vivek Vardhan",
+      name: "",
     },
   };
 
