@@ -72,7 +72,7 @@ const HydtoWgl = () => {
     }
 
     const options = {
-      key: "rzp_test_By0ovCBn7Mzp2R",
+      key: "",
       currency: "INR",
       amount: amount * 100,
       name: "Bus Ticket",
