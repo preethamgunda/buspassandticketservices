@@ -1,0 +1,12 @@
+.image {
+  width: 20%;
+  float: left;
+  /* background-color: blue; */
+  border: 2px solid;
+}
+.content {
+  width: 80%;
+  float: right;
+  /* background-color: aquamarine; */
+  border: 2px solid;
+}
