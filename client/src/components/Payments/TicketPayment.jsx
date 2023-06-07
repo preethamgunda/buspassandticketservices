@@ -27,7 +27,7 @@ const displayRazorpay = async (amount) => {
   }
 
   const options = {
-    key: "rzp_test_By0ovCBn7Mzp2R",
+    key: "",
     currency: "INR",
     amount: amount * 100,
     name: "Bus Ticket",
@@ -40,7 +40,7 @@ const displayRazorpay = async (amount) => {
       localStorage.setItem("transaction_status", "success");
     },
     prefill: {
-      name: "Vivek Vardhan",
+      name: "n",
     },
   };
 
